@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://yf52.github.io/the-matter-in-your-head/</id>
+    <title>神经病院主站</title>
+    <updated>2020-04-20T03:24:49.863Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://yf52.github.io/the-matter-in-your-head/"/>
+    <link rel="self" href="https://yf52.github.io/the-matter-in-your-head/atom.xml"/>
+    <subtitle>白嫖人士聚集地，正盗中士游乐园</subtitle>
+    <logo>https://yf52.github.io/the-matter-in-your-head/images/avatar.png</logo>
+    <icon>https://yf52.github.io/the-matter-in-your-head/favicon.ico</icon>
+    <rights>All rights reserved 2020, 神经病院主站</rights>
+    <entry>
+        <title type="html"><![CDATA[关于本站]]></title>
+        <id>https://yf52.github.io/the-matter-in-your-head/post/guan-yu-ben-zhan/</id>
+        <link href="https://yf52.github.io/the-matter-in-your-head/post/guan-yu-ben-zhan/">
+        </link>
+        <updated>2020-04-20T03:15:00.000Z</updated>
+        <content type="html"><![CDATA[<p>本站于2020.4.20开始制作，目的为第一时间发布白嫖消息，上传游戏资源。站长QQ1227554704  资源群959952962</p>
+]]></content>
+    </entry>
+</feed>
