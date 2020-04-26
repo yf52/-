@@ -1,487 +1,802 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>神经病院主站</title>
-<meta name="description" content="白嫖人士聚集地，资源获取喜加园" />
-<link rel="shortcut icon" href="https://yf52.github.io/the-matter-in-your-head//favicon.ico">
-<link rel="stylesheet" href="https://yf52.github.io/the-matter-in-your-head//styles/main.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://yf52.github.io/the-matter-in-your-head//media/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://yf52.github.io/the-matter-in-your-head//media/css/live2d.css">
+    <meta name="description" content="白嫖人士聚集地，资源获取喜加园" />
+    <title>神经病院主站</title>
+</head>
 
-<script src="https://yf52.github.io/the-matter-in-your-head//media/js/jquery.min.js"></script>
-<script src="https://yf52.github.io/the-matter-in-your-head//media/js/masonry.pkgd.min.js"></script>
-<script src="https://yf52.github.io/the-matter-in-your-head//media/js/aos.js"></script>
-<script src="https://yf52.github.io/the-matter-in-your-head//media/js/pace.min.js"></script>
-<script src="https://yf52.github.io/the-matter-in-your-head//media/js/view-image.min.js"></script>
-<script src="https://yf52.github.io/the-matter-in-your-head//media/js/jquery.magnific-popup.min.js"></script>
-<script src="https://yf52.github.io/the-matter-in-your-head//media/js/functions.js"></script>
-  </head>
-  <body>
-    <!-- start: #wrapper -->
-    <div class="wrapper">
-      
-            <header id="header" class="grid-container">
-        <!-- start: .menu-wrapper -->
-        <div class="menu-mobile"> 
-          <i class="fa fa-reorder"></i>
+
+<body>
+    <!-- 响应式布局，针对PC端内容显示 -->
+    <div id="content">
+        <div class="nav-large">
+            <div class="row">
+                <div class="side"><html>
+
+<head>
+    <link rel="stylesheet" href="https://yf52.github.io/the-matter-in-your-head//styles/main.css">
+    <meta name="description" content="白嫖人士聚集地，资源获取喜加园" />
+    <title>Document</title>
+</head>
+<style>
+</style>
+
+<body>
+    <div id=side>
+        <div class="avatar-border">
+            <img src="https://yf52.github.io/the-matter-in-your-head//images/avatar.png?v=1587865308830" class="avatar">
         </div>
-        <div class="menu-wrapper">
-          <div class="">
-            <div class="logo">
-              <a href="https://yf52.github.io/the-matter-in-your-head/"><img src="/media/images/logoo.png" alt=""></a>
+        <div class="sitename">神经病院主站</div>
+        <span class="describtion" data-text='["白嫖人士聚集地，资源获取喜加园"]'>&nbsp;</span>
+        
+    <div class="share-button">
+        <span>社交按钮</span>
+        
+        
+        
+        
+        
+        
+    </div>
+    <div id="qq" style="display:none"></div>
+    
+    
+    <div class="mchocie describtion">
+        <a href="/" class="menubutton">
+            首页
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a href="/archives" class="menubutton">
+            归档
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a href="/tags" class="menubutton">
+            标签
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a href="/post/about" class="menubutton">
+            关于
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a href="https://yf52.github.io/the-matter-in-your-head/archives" class="menubutton">
+            福利发放
+        </a>
+    </div>
+    
+    
+    
+    <hr>
+    <div id="footinfo">主qq群959952962 | Theme: <a href="https://github.com/850552586/gridea-theme-fog">Fog</a></div>
+    <div id="sitegotimeDate">载入天数...</div>
+    <div id="sitegotimes">载入时分秒...</div>
+    <div id="cussitetime" style="display:none"></div>
+    </div>
+</body>
+
+</html>
+<script src="https://yf52.github.io/the-matter-in-your-head//media/js/wordshow.js"></script>
+<script>
+    //----------------------站点运行时间
+    var now = new Date();
+
+    function createtime() {
+        var sitegotime = document.getElementById("cussitetime").innerHTML + " 00:00:00";
+        var grt = new Date(sitegotime); //此处修改你的建站时间或者网站上线时间 
+        now.setTime(now.getTime() + 250);
+        days = (now - grt) / 1000 / 60 / 60 / 24;
+        dnum = Math.floor(days);
+        hours = (now - grt) / 1000 / 60 / 60 - (24 * dnum);
+        hnum = Math.floor(hours);
+        if (String(hnum).length == 1) {
+            hnum = "0" + hnum;
+        }
+        minutes = (now - grt) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);
+        mnum = Math.floor(minutes);
+        if (String(mnum).length == 1) {
+            mnum = "0" + mnum;
+        }
+        seconds = (now - grt) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);
+        snum = Math.round(seconds);
+        if (String(snum).length == 1) {
+            snum = "0" + snum;
+        }
+        document.getElementById("sitegotimeDate").innerHTML = "本站已安全运行 " + dnum + " 天 ";
+        document.getElementById("sitegotimes").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒";
+    }
+    setInterval("createtime()", 250);
+
+    //-------------------------------------------------搜索
+    // 获取搜索框、搜索按钮、清空搜索、结果输出对应的元素
+    var searchInput = document.querySelector('.search-input');
+    var searchResults = document.querySelector('.search-results');
+
+    // 申明保存文章的标题、链接、内容的数组变量
+    var searchValue = '',
+        arrItems = [],
+        arrLinks = [],
+        arrTitles = [],
+        arrResults = [],
+        indexItem = [],
+        itemLength = 0;
+    var tmpDiv = document.createElement('div');
+    tmpDiv.className = 'result-item';
+
+    // ajax 的兼容写法
+    var xhr = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            xml = xhr.responseXML;
+            arrItems = xml.getElementsByTagName('entry');
+            itemLength = arrItems.length;
+            console.log(arrItems);
+            // 遍历并保存所有文章对应的标题、链接、内容到对应的数组中
+            // 同时过滤掉 HTML 标签
+            for (i = 0; i < itemLength; i++) {
+                var link = arrItems[i].getElementsByTagName('link')[0];
+                arrLinks[i] = link.getAttribute("href");
+                arrTitles[i] = arrItems[i].getElementsByTagName('title')[0].
+                childNodes[0].nodeValue.replace(/<.*?>/g, '');
+            }
+        }
+    }
+
+    // 开始获取根目录下 feed.xml 文件内的数据
+    xhr.open('get', '/atom.xml', true);
+    xhr.send();
+
+
+
+    // 输入框内容变化后就开始匹配，可以不用点按钮
+    // 经测试，onkeydown, onchange 等方法效果不太理想，
+    // 存在输入延迟等问题，最后发现触发 input 事件最理想，
+    // 并且可以处理中文输入法拼写的变化
+    searchInput.oninput = function () {
+        setTimeout(searchConfirm, 0);
+    }
+    searchInput.onfocus = function () {
+        searchResults.style.display = 'block';
+    }
+
+    function searchConfirm() {
+        if (searchInput.value == '') {
+            searchResults.style.display = 'none';
+        } else if (searchInput.value.search(/^\s+$/) >= 0) {
+            // 检测输入值全是空白的情况
+            searchInit();
+            var itemDiv = tmpDiv.cloneNode(true);
+            itemDiv.innerText = '请输入有效内容...';
+            searchResults.appendChild(itemDiv);
+        } else {
+            // 合法输入值的情况
+            searchInit();
+            searchValue = searchInput.value;
+            // 在标题、内容中查找
+            searchMatching(arrTitles, searchValue);
+        }
+    }
+
+    // 每次搜索完成后的初始化
+    function searchInit() {
+        arrResults = [];
+        indexItem = [];
+        searchResults.innerHTML = '';
+        searchResults.style.display = 'block';
+    }
+
+    function searchMatching(arr1, input) {
+        // 忽略输入大小写
+        input = new RegExp(input, 'i');
+        // 在所有文章标题、内容中匹配查询值
+        for (i = 0; i < itemLength; i++) {
+            if (arr1[i].search(input) !== -1) {
+                var arr = arr1;
+                indexItem.push(i); // 保存匹配值的索引
+                var indexContent = arr[i].search(input);
+                // 此时 input 为 RegExp 格式 /input/i，转换为原 input 字符串长度
+                var l = input.toString().length - 3;
+                var step = 10;
+
+                // 将匹配到内容的地方进行黄色标记，并包括周围一定数量的文本
+                arrResults.push(arr[i].slice(indexContent - step, indexContent));
+            }
+        }
+
+        // 输出总共匹配到的数目
+        var totalDiv = tmpDiv.cloneNode(true);
+        totalDiv.innerHTML = '<b>总匹配：' + indexItem.length + ' 项<hr></b>';
+        searchResults.appendChild(totalDiv);
+
+        // 未匹配到内容的情况
+        if (indexItem.length == 0) {
+            var itemDiv = tmpDiv.cloneNode(true);
+            itemDiv.innerText = '未匹配到内容...';
+            searchResults.appendChild(itemDiv);
+        }
+
+        // 将所有匹配内容进行组合
+        for (i = 0; i < arrResults.length; i++) {
+            var itemDiv = tmpDiv.cloneNode(true);
+            itemDiv.innerHTML = '<b>[' + arrTitles[indexItem[i]] +
+                ']</b><p>' + arrResults[i] + "</p><hr />";
+            itemDiv.setAttribute('onclick', 'changeHref(arrLinks[indexItem[' + i + ']])');
+            searchResults.appendChild(itemDiv);
+        }
+    }
+
+    function changeHref(href) {
+        location.href = href;
+    }
+
+    function showqq() {
+        var qq = document.getElementById("qq").innerHTML;
+        if (qq != '')
+            alert("博主的QQ联系方式为：" + qq);
+        else
+            alert("博主暂未设置QQ联系方式");
+    }
+</script></div>
+                <div id="tab1" class="tab">
+                    <div class="bars">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="close"></div>
+                </div>
+                <div id="main" class="col-xs-12 col-sm-7">
+                    <link rel="stylesheet" href="https://yf52.github.io/the-matter-in-your-head//media/css/font-awesome.css">
+<div id="post-container">
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://yf52.github.io/the-matter-in-your-head//post-images/qian-tan-steam-bei-hou-de-hei-se-jiao-yi.png" class="postimage"
+                onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/qian-tan-steam-bei-hou-de-hei-se-jiao-yi/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/qian-tan-steam-bei-hou-de-hei-se-jiao-yi/';return false">
+                    浅谈：steam背后的“黑色”交易
+                </div>
             </div>
-            <!-- start: .main-nav -->
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-04-22</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+                <a href="https://yf52.github.io/the-matter-in-your-head/tag/tEV63luiq/" class="postlink">
+                    <i class="fa fa-tag"></i> 知识点
+                </a>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://yf52.github.io/the-matter-in-your-head//post-images/xi-jia-yi-discord-jia-ru-pin-dao-mian-fei-ling-qu-lesslessyuan-shi-lu-cheng-greatergreater.png" class="postimage"
+                onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/xi-jia-yi-discord-jia-ru-pin-dao-mian-fei-ling-qu-lesslessyuan-shi-lu-cheng-greatergreater/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/xi-jia-yi-discord-jia-ru-pin-dao-mian-fei-ling-qu-lesslessyuan-shi-lu-cheng-greatergreater/';return false">
+                    【喜加一】Discord加入频道免费领取《原始旅程》
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-04-21</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+                <a href="https://yf52.github.io/the-matter-in-your-head/tag/RPF6TvCoK/" class="postlink">
+                    <i class="fa fa-tag"></i> steam
+                </a>
+                
+                <a href="https://yf52.github.io/the-matter-in-your-head/tag/1-tncbIjT/" class="postlink">
+                    <i class="fa fa-tag"></i> 白嫖
+                </a>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://yf52.github.io/the-matter-in-your-head//post-images/gai-si-de-bai-du-wang-pan-you-xian-su-liao-zen-me-ban.jpg" class="postimage"
+                onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/gai-si-de-bai-du-wang-pan-you-xian-su-liao-zen-me-ban/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/gai-si-de-bai-du-wang-pan-you-xian-su-liao-zen-me-ban/';return false">
+                    该死的百度网盘又限速了怎么办？
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-04-21</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://yf52.github.io/the-matter-in-your-head//post-images/mian-fei-zhou-mo-jie-zhi-4954-yuan-steam-you-xi-jing-mian-fei-wan.png" class="postimage"
+                onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/mian-fei-zhou-mo-jie-zhi-4954-yuan-steam-you-xi-jing-mian-fei-wan/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/mian-fei-zhou-mo-jie-zhi-4954-yuan-steam-you-xi-jing-mian-fei-wan/';return false">
+                    【免费周末】价值4954元Steam游戏竟免费玩
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-04-20</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 9 min read</div>
+            <div class="posttag">
+                
+                <a href="https://yf52.github.io/the-matter-in-your-head/tag/5R00cceAs/" class="postlink">
+                    <i class="fa fa-tag"></i> 免费周末
+                </a>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://yf52.github.io/the-matter-in-your-head//post-images/4-yue-hui-zong-3-kuan-da-zuo-ni-dao-shou-mei.png" class="postimage"
+                onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/4-yue-hui-zong-3-kuan-da-zuo-ni-dao-shou-mei/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/4-yue-hui-zong-3-kuan-da-zuo-ni-dao-shou-mei/';return false">
+                    4月汇总：3款大作你到手没？
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-04-20</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+                <a href="https://yf52.github.io/the-matter-in-your-head/tag/1-tncbIjT/" class="postlink">
+                    <i class="fa fa-tag"></i> 白嫖
+                </a>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://yf52.github.io/the-matter-in-your-head//post-images/bai-piao-xiao-xi-jie-zhi-78rmb-de-yi-kuan-xue-xi-yu-yan-de-you-xi.png" class="postimage"
+                onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/bai-piao-xiao-xi-jie-zhi-78rmb-de-yi-kuan-xue-xi-yu-yan-de-you-xi/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/bai-piao-xiao-xi-jie-zhi-78rmb-de-yi-kuan-xue-xi-yu-yan-de-you-xi/';return false">
+                    白嫖消息【价值78RMB的一款学习语言的游戏】
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-04-20</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+                <a href="https://yf52.github.io/the-matter-in-your-head/tag/RPF6TvCoK/" class="postlink">
+                    <i class="fa fa-tag"></i> steam
+                </a>
+                
+                <a href="https://yf52.github.io/the-matter-in-your-head/tag/1-tncbIjT/" class="postlink">
+                    <i class="fa fa-tag"></i> 白嫖
+                </a>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+</div>
+                    <div style="background:whitesmoke; ">
+                        <div class="pagi">
+    <ul>
+        
+        <li><a style="width:100px">&nbsp;</a></li>
+        
+                <li><a id="page1">1</a></li>
+                <li><a id="page2" class="active">2</a></li>
+                <li><a id="page3">3</a></li>
+                
+        <li><a style="width:100px">&nbsp;</a></li>
+        
+            </ul>
+</div>
 
-            <nav class="main-nav grid-container grid-parent">
-              <ul id="menu-header" class="menu gradient-effect">
-                <li class="current-menu-item"><a href="https://yf52.github.io/the-matter-in-your-head/" class="menu">首页</a></li>
-                
-                  <li class="" >
-                    <a href="/" class="menu">
-                      首页
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/archives" class="menu">
-                      归档
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/tags" class="menu">
-                      标签
-                    </a>
-                  </li>
-                
-                  <li class="" >
-                    <a href="/post/about" class="menu">
-                      关于
-                    </a>
-                  </li>
-                
-                <li class="search-menu-item hide-on-mobile hide-on-tablet"><a href="#search-lightbox" class="lightbox mfp-inline"><i class="fa fa-search-line"></i></a></li>
-              </ul>
-            </nav>
-            <a href="#search-lightbox" class="lightbox epcl-search-button mfp-inline hide-on-tablet hide-on-desktop"><i class="fa fa-search-line"></i></a>
-            <!-- end: .main-nav -->
-            <div class="clear"></div>
-            <div class="border hide-on-tablet hide-on-mobile"></div>
-          </div>    
-          <div class="clear"></div>
+<div id="pagination-prev" style="display:none"> 
+</div>
+<div id="pagination-next" style="display:none"> </div>
+
+
+<script>
+    var prevstr = document.getElementById("pagination-prev").innerHTML;
+    var nextstr = document.getElementById("pagination-next").innerHTML;
+    var page1 = document.getElementById("page1");
+    var page2 = document.getElementById("page2");
+    var page3 = document.getElementById("page3");
+    page1.innerHTML = '-';
+    page2.innerHTML = '1';
+    page3.innerHTML = '-';
+    if (prevstr.length > 5) {
+        if (prevstr.indexOf("page/") != -1) {
+            var prevnum = parseInt(prevstr.split("page/")[1]);
+            page1.innerHTML = prevnum;
+            page2.innerHTML = prevnum + 1;
+        } else {
+            page1.innerHTML = 1;
+            page2.innerHTML = 2;
+        }
+    }
+    if (nextstr.indexOf("page/") != -1) {
+        var nextnum = parseInt(nextstr.split("page/")[1]);
+        page3.innerHTML = nextnum;
+        page2.innerHTML = nextnum - 1;
+    }
+</script>
+                    </div>
+                </div>
+                <div class="col-xs-6 col-sm-2"></div>
+            </div>
         </div>
-        <!-- end: .menu-wrapper -->
-        <div class="clear"></div>
-      </header>
-      <div class="hide-on-mobile hide-on-tablet hide-on-desktop">
-        <div id="search-lightbox" class="grid-container grid-small grid-parent mfp-hide">
-          <div class="search-wrapper section">
-            <form id="gridea-search-form" data-update="1587545541669" action="/search/index.html" class="search-form" _lpchecked="1">
-              <input type="text" name="q" id="s" value="" class="search-field" placeholder="搜点啥..." aria-label="搜点啥..." required="">
-              <button type="submit" class="submit" aria-label="Submit">
-                <i class="fa fa-search-line"></i>
-              </button>
-            </form>
-          </div>
+        <div id="bg">
         </div>
+        <div id="bgurl" style="display:none"></div>
+    </div>
+    <!-- 响应式布局，针对手机端内容显示 -->
+    <div class="nav-small">
+        <head>
+
+  <!-- 引入Bootstrap核心样式文件 -->
+  <link rel="stylesheet" href="https://yf52.github.io/the-matter-in-your-head//media/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">神经病院主站&nbsp;&nbsp;|</a>
       </div>
 
-      <main id="home" class="main">
-        <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
-        <div class="row">
-          <div class="content-wrapper grid-posts content">
-                
-            <!-- start: .articles -->
-            
-              
-              
-              <div class="articles columns-3">
-                
-                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
-                  <div class="article-wrapper  cover" style="background-image: url('https://yf52.github.io/the-matter-in-your-head//post-images/qian-tan-steam-bei-hou-de-hei-se-jiao-yi.png');">
-                  <header>
-                    
-                      <div class="tags absolute">
-                        <a href="https://yf52.github.io/the-matter-in-your-head/tag/tEV63luiq/" class="ctag ctag-0 ctag-tEV63luiq">知识点</a>
-                      </div>
-                    
-                    <div class="meta">
-                      <time datetime="2020-04-22"><i class="fa fa-calendar"></i><span class="lately">16 小时前</span></time>
-                      <div class="clear"></div>
-                    </div>
-                    <h1 class="title main-title gradient-effect"><a href="https://yf52.github.io/the-matter-in-your-head/post/qian-tan-steam-bei-hou-de-hei-se-jiao-yi/">浅谈：steam背后的“黑色”交易</a></h1>
-                  </header>
-                  <footer class="author-meta">
-                    <a href="" class="author" title="">
-                      <span class="author-image cover" style="background-image: url('https://yf52.github.io/the-matter-in-your-head//images/avatar.png');"></span>
-                      <span class="author-name">神经病院主站</span>
-                    </a>
-                    
-                    <a href="https://yf52.github.io/the-matter-in-your-head/post/qian-tan-steam-bei-hou-de-hei-se-jiao-yi/#comments" class="comments meta-info alignright" title="">
-                      <span class="comment-count valine-comment-count" data-xid="/qian-tan-steam-bei-hou-de-hei-se-jiao-yi/"> </span><i class="fa fa-comment"></i>
-                    </a>
-                    <div id="/qian-tan-steam-bei-hou-de-hei-se-jiao-yi/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
-                    
-                    <div class="clear"></div>
-                  </footer>
-                  <div class="overlay"></div>       
-                </div>
-              </article>
-                
-              
-              
-              
-              
-                
-              <article class="default grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry">
-                <div class="article-wrapper">
-                  <header>
-                    <div class="post-format-image post-format-wrapper">
-                      <div class="featured-image">
-                        <a href="https://yf52.github.io/the-matter-in-your-head/post/xi-jia-yi-discord-jia-ru-pin-dao-mian-fei-ling-qu-lesslessyuan-shi-lu-cheng-greatergreater/" class="thumb hover-effect">
-                          <span class="fullimage cover" role="img" aria-label="" style="background-image: url('https://yf52.github.io/the-matter-in-your-head//post-images/xi-jia-yi-discord-jia-ru-pin-dao-mian-fei-ling-qu-lesslessyuan-shi-lu-cheng-greatergreater.png');"></span>
-                        </a>
-                        
-                        <div class="tags absolute">
-                          <a href="https://yf52.github.io/the-matter-in-your-head/tag/RPF6TvCoK/" class="ctag ctag-1 ctag-RPF6TvCoK">steam</a>
-                        </div>
-                        
-                      </div>
-                    </div>                    
-                    <div class="meta">
-                      <time datetime="2020-04-21"><i class="fa fa-calendar"></i><span class="lately">1 天前</span></time>
-                      <div class="clear"></div>
-                    </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          
+          
+          <li>
+            <a href="/">
+              首页
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archives">
+              归档
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags">
+              标签
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/post/about">
+              关于
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="https://yf52.github.io/the-matter-in-your-head/archives">
+              福利发放
+            </a>
+          </li>
+          
+          
+          
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
-                    <h1 class="title main-title gradient-effect"><a href="https://yf52.github.io/the-matter-in-your-head/post/xi-jia-yi-discord-jia-ru-pin-dao-mian-fei-ling-qu-lesslessyuan-shi-lu-cheng-greatergreater/">【喜加一】Discord加入频道免费领取《原始旅程》</a></h1>
-                  </header>
 
-                  <div class="post-excerpt">
-                      <p><img src="https://yf52.github.io/the-matter-in-your-head//post-images/1587462906287.png" alt="" loading="lazy"><br>
-来自发行商官方活动：Another Indie</p>
-<p>领取方法：</p>
-<p>没有注册过Discord的先注册账号</p>
-<p>复制如下链接至浏览器打开，即可加入Another Indie 的 Discord 官方频道（需要魔法）：</p>
-<p>https://discordapp.com/invite/ai<br>
-<img src="https://yf52.github.io/the-matter-in-your-head//post-images/1587463981608.jpg" alt="" loading="lazy"><br>
-加入频道后（Another Indie），点击主页左上角 #Induction 进入 ，看到一篇爱心推文，点击小爱心（点赞），然后在主页找到如下推文，选择第四行蓝色 “#steam-key-claim” 进入聊天组<br>
-<img src="https://yf52.github.io/the-matter-in-your-head//post-images/1587464024682.jpg" alt="" loading="lazy"><br>
-在聊天组内发送 !getkey 即可收到机器人（Another Indieot Legancy）发送的Steam Key私信:<br>
-<img src="https://yf52.github.io/the-matter-in-your-head//post-images/1587464051480.jpg" alt="" loading="lazy"><br>
-<img src="https://yf52.github.io/the-matter-in-your-head//post-images/1587464063582.jpg" alt="" loading="lazy"><br>
-找不到私信的进入菜单栏，左上角聊天信息窗口进入即可看到！</p>
+  <!-- 引入jQuery核心js文件 -->
+  <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+  <!-- 引入BootStrap核心js文件 -->
+  <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+        <!-- 移动端欢迎页 -->
+<div class="welcome">
+    <span class="mobiledescribtion"></span>
+</div>
+<div id="mobilebgurl" style="display:none"></div>
+<script>
+    var welcome = $('.welcome');
+    var bgurl = document.getElementById("mobilebgurl").innerHTML;
+    for (var i = 0; i < 3; i++)
+        bgurl = bgurl.replace("\\", "/");
+    welcome.css("background", "url('" + bgurl + "')");
+    var mobiledes = document.querySelector(".mobiledescribtion");
+    var text = "白嫖人士聚集地，资源获取喜加园";
+    // 当前显示第几个字
+    var mobilecharIndex = 1;
+    // 每个字显示间隔默认是500毫秒
+    var mobiledelta = 500;
 
-                    <div class="clear"></div>
-                  </div>
+    // 记录动画执行开始时间
+    var mobilestart = null;
+    // 是否为删除动画
+    var mobileisDeleting = false;
 
-                  <footer class="author-meta">
-                    <a href="" class="author" title="">
-                      <span class="author-image cover" style="background-image: url('https://yf52.github.io/the-matter-in-your-head//images/avatar.png');"></span>
-                      <span class="author-name">神经病院主站</span>
-                    </a>
-                    
-                    <a href="https://yf52.github.io/the-matter-in-your-head/post/xi-jia-yi-discord-jia-ru-pin-dao-mian-fei-ling-qu-lesslessyuan-shi-lu-cheng-greatergreater/#comments" class="comments meta-info alignright" title="">
-                      <span class="comment-count valine-comment-count" data-xid="/xi-jia-yi-discord-jia-ru-pin-dao-mian-fei-ling-qu-lesslessyuan-shi-lu-cheng-greatergreater/"> </span><i class="fa fa-comment"></i>
-                    </a>
-                    <div id="/xi-jia-yi-discord-jia-ru-pin-dao-mian-fei-ling-qu-lesslessyuan-shi-lu-cheng-greatergreater/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
-                    
-                    <div class="clear"></div>
-                  </footer>
-                  <div class="border"></div>       
-                </div>
-              </article>
-                
-              
-              
-              
-              
-                
-                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
-                  <div class="article-wrapper  cover" style="background-image: url('https://yf52.github.io/the-matter-in-your-head//post-images/gai-si-de-bai-du-wang-pan-you-xian-su-liao-zen-me-ban.jpg');">
-                  <header>
-                    
-                    <div class="meta">
-                      <time datetime="2020-04-21"><i class="fa fa-calendar"></i><span class="lately">2 天前</span></time>
-                      <div class="clear"></div>
-                    </div>
-                    <h1 class="title main-title gradient-effect"><a href="https://yf52.github.io/the-matter-in-your-head/post/gai-si-de-bai-du-wang-pan-you-xian-su-liao-zen-me-ban/">该死的百度网盘又限速了怎么办？</a></h1>
-                  </header>
-                  <footer class="author-meta">
-                    <a href="" class="author" title="">
-                      <span class="author-image cover" style="background-image: url('https://yf52.github.io/the-matter-in-your-head//images/avatar.png');"></span>
-                      <span class="author-name">神经病院主站</span>
-                    </a>
-                    
-                    <a href="https://yf52.github.io/the-matter-in-your-head/post/gai-si-de-bai-du-wang-pan-you-xian-su-liao-zen-me-ban/#comments" class="comments meta-info alignright" title="">
-                      <span class="comment-count valine-comment-count" data-xid="/gai-si-de-bai-du-wang-pan-you-xian-su-liao-zen-me-ban/"> </span><i class="fa fa-comment"></i>
-                    </a>
-                    <div id="/gai-si-de-bai-du-wang-pan-you-xian-su-liao-zen-me-ban/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
-                    
-                    <div class="clear"></div>
-                  </footer>
-                  <div class="overlay"></div>       
-                </div>
-              </article>
-                
-              
-              
-              
-              
-                
-                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
-                  <div class="article-wrapper  cover" style="background-image: url('https://yf52.github.io/the-matter-in-your-head//post-images/mian-fei-zhou-mo-jie-zhi-4954-yuan-steam-you-xi-jing-mian-fei-wan.png');">
-                  <header>
-                    
-                      <div class="tags absolute">
-                        <a href="https://yf52.github.io/the-matter-in-your-head/tag/5R00cceAs/" class="ctag ctag-3 ctag-5R00cceAs">免费周末</a>
-                      </div>
-                    
-                    <div class="meta">
-                      <time datetime="2020-04-20"><i class="fa fa-calendar"></i><span class="lately">2 天前</span></time>
-                      <div class="clear"></div>
-                    </div>
-                    <h1 class="title main-title gradient-effect"><a href="https://yf52.github.io/the-matter-in-your-head/post/mian-fei-zhou-mo-jie-zhi-4954-yuan-steam-you-xi-jing-mian-fei-wan/">【免费周末】价值4954元Steam游戏竟免费玩</a></h1>
-                  </header>
-                  <footer class="author-meta">
-                    <a href="" class="author" title="">
-                      <span class="author-image cover" style="background-image: url('https://yf52.github.io/the-matter-in-your-head//images/avatar.png');"></span>
-                      <span class="author-name">神经病院主站</span>
-                    </a>
-                    
-                    <a href="https://yf52.github.io/the-matter-in-your-head/post/mian-fei-zhou-mo-jie-zhi-4954-yuan-steam-you-xi-jing-mian-fei-wan/#comments" class="comments meta-info alignright" title="">
-                      <span class="comment-count valine-comment-count" data-xid="/mian-fei-zhou-mo-jie-zhi-4954-yuan-steam-you-xi-jing-mian-fei-wan/"> </span><i class="fa fa-comment"></i>
-                    </a>
-                    <div id="/mian-fei-zhou-mo-jie-zhi-4954-yuan-steam-you-xi-jing-mian-fei-wan/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
-                    
-                    <div class="clear"></div>
-                  </footer>
-                  <div class="overlay"></div>       
-                </div>
-              </article>
-                
-              
-              
-              
-              
-                
-                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
-                  <div class="article-wrapper  cover" style="background-image: url('https://yf52.github.io/the-matter-in-your-head//post-images/4-yue-hui-zong-3-kuan-da-zuo-ni-dao-shou-mei.png');">
-                  <header>
-                    
-                      <div class="tags absolute">
-                        <a href="https://yf52.github.io/the-matter-in-your-head/tag/1-tncbIjT/" class="ctag ctag-4 ctag-1-tncbIjT">白嫖</a>
-                      </div>
-                    
-                    <div class="meta">
-                      <time datetime="2020-04-20"><i class="fa fa-calendar"></i><span class="lately">2 天前</span></time>
-                      <div class="clear"></div>
-                    </div>
-                    <h1 class="title main-title gradient-effect"><a href="https://yf52.github.io/the-matter-in-your-head/post/4-yue-hui-zong-3-kuan-da-zuo-ni-dao-shou-mei/">4月汇总：3款大作你到手没？</a></h1>
-                  </header>
-                  <footer class="author-meta">
-                    <a href="" class="author" title="">
-                      <span class="author-image cover" style="background-image: url('https://yf52.github.io/the-matter-in-your-head//images/avatar.png');"></span>
-                      <span class="author-name">神经病院主站</span>
-                    </a>
-                    
-                    <a href="https://yf52.github.io/the-matter-in-your-head/post/4-yue-hui-zong-3-kuan-da-zuo-ni-dao-shou-mei/#comments" class="comments meta-info alignright" title="">
-                      <span class="comment-count valine-comment-count" data-xid="/4-yue-hui-zong-3-kuan-da-zuo-ni-dao-shou-mei/"> </span><i class="fa fa-comment"></i>
-                    </a>
-                    <div id="/4-yue-hui-zong-3-kuan-da-zuo-ni-dao-shou-mei/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
-                    
-                    <div class="clear"></div>
-                  </footer>
-                  <div class="overlay"></div>       
-                </div>
-              </article>
-                
-              
-              
-              
-              
-                
-                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
-                  <div class="article-wrapper  cover" style="background-image: url('https://yf52.github.io/the-matter-in-your-head//post-images/bai-piao-xiao-xi-jie-zhi-78rmb-de-yi-kuan-xue-xi-yu-yan-de-you-xi.png');">
-                  <header>
-                    
-                      <div class="tags absolute">
-                        <a href="https://yf52.github.io/the-matter-in-your-head/tag/RPF6TvCoK/" class="ctag ctag-5 ctag-RPF6TvCoK">steam</a>
-                      </div>
-                    
-                    <div class="meta">
-                      <time datetime="2020-04-20"><i class="fa fa-calendar"></i><span class="lately">2 天前</span></time>
-                      <div class="clear"></div>
-                    </div>
-                    <h1 class="title main-title gradient-effect"><a href="https://yf52.github.io/the-matter-in-your-head/post/bai-piao-xiao-xi-jie-zhi-78rmb-de-yi-kuan-xue-xi-yu-yan-de-you-xi/">白嫖消息【价值78RMB的一款学习语言的游戏】</a></h1>
-                  </header>
-                  <footer class="author-meta">
-                    <a href="" class="author" title="">
-                      <span class="author-image cover" style="background-image: url('https://yf52.github.io/the-matter-in-your-head//images/avatar.png');"></span>
-                      <span class="author-name">神经病院主站</span>
-                    </a>
-                    
-                    <a href="https://yf52.github.io/the-matter-in-your-head/post/bai-piao-xiao-xi-jie-zhi-78rmb-de-yi-kuan-xue-xi-yu-yan-de-you-xi/#comments" class="comments meta-info alignright" title="">
-                      <span class="comment-count valine-comment-count" data-xid="/bai-piao-xiao-xi-jie-zhi-78rmb-de-yi-kuan-xue-xi-yu-yan-de-you-xi/"> </span><i class="fa fa-comment"></i>
-                    </a>
-                    <div id="/bai-piao-xiao-xi-jie-zhi-78rmb-de-yi-kuan-xue-xi-yu-yan-de-you-xi/" class="leancloud_visitors views-counter meta-info alignright" title=""><span class="leancloud-visitors-count" style="vertical-align: middle;"></span><i class="fa fa-leancloud"></i></div>
-                    
-                    <div class="clear"></div>
-                  </footer>
-                  <div class="overlay"></div>       
-                </div>
-              </article>
-                
-              
-              
-              <div class="clear"></div>
-              <div class="separator last hide-on-tablet hide-on-mobile"></div>
-            </div>
-            <!-- end: .articles -->
-            
-                        <div class="epcl-pagination section">
-              <div class="nav">
-                
-                
-              </div>
-            </div>
+    // 动画回调函数
+    function mobileLoadDes(time) {
+        window.requestAnimationFrame(mobileLoadDes);
+        // 初始化开始时间
+        if (!mobilestart) start = time;
+        // 获取时间间隔
+        var mobileprogress = time - mobilestart;
+        // 每隔一定的时间，打印出一个新的字符
+        if (mobileprogress > mobiledelta) {
+            // 如果是打字效果
+            if (!mobileisDeleting) {
+                // 给展示文字的span新增一个字符，使用innerHTML来替换，charIndex自增1，然后返回新的字符串子串
+                mobiledes.innerHTML = "&nbsp;" + text.slice(
+                    0,
+                    ++mobilecharIndex
+                );
+                mobiledelta = 500 - Math.random() * 400;
+            } else {
+                // 如果是删除效果，则把文字一个一个减掉
+                mobiledes.innerHTML = "&nbsp;" + text.slice(
+                    0,
+                    mobilecharIndex--
+                );
+            }
+            // 把star更新为当前时间，进行下一个周期
+            mobilestart = time;
 
-            
-          </div>
-          </div>
-        </div>
-      </main>
+            // 如果文字已经全部打印完毕
+            if (mobilecharIndex === text.length) {
+                // 下次开始删除文字
+                mobileisDeleting = true;
+                // 删除文字的间隔为200毫秒
+                mobiledelta = 100;
+                // 额外等待1.2秒后再删除
+                mobilestart = time + 1000;
+            }
 
-        <footer id="footer" class="grid-container">
-        <div class="widgets row gradient-effect">
-            <div class="default-sidebar border-effect">
-              <div class="grid-33 tablet-grid-50 mobile-grid-100">
-                <section id="tag_cloud-2" class="widget widget_epcl_posts_thumbs underline-effect">
-                  <h4 class="widget-title title white bordered">最新文章</h4>
-                  
-                  
-                  <article class="item post-0 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://yf52.github.io/the-matter-in-your-head/post/qian-tan-steam-bei-hou-de-hei-se-jiao-yi/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://yf52.github.io/the-matter-in-your-head//post-images/qian-tan-steam-bei-hou-de-hei-se-jiao-yi.png');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2020-04-22">2020-04-22</time>
-                      <h4 class="title usmall">
-                        <a href="https://yf52.github.io/the-matter-in-your-head/post/qian-tan-steam-bei-hou-de-hei-se-jiao-yi/">浅谈：steam背后的“黑色”交易</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
-                  
-                  
-                  
-                  <article class="item post-1 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://yf52.github.io/the-matter-in-your-head/post/xi-jia-yi-discord-jia-ru-pin-dao-mian-fei-ling-qu-lesslessyuan-shi-lu-cheng-greatergreater/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://yf52.github.io/the-matter-in-your-head//post-images/xi-jia-yi-discord-jia-ru-pin-dao-mian-fei-ling-qu-lesslessyuan-shi-lu-cheng-greatergreater.png');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2020-04-21">2020-04-21</time>
-                      <h4 class="title usmall">
-                        <a href="https://yf52.github.io/the-matter-in-your-head/post/xi-jia-yi-discord-jia-ru-pin-dao-mian-fei-ling-qu-lesslessyuan-shi-lu-cheng-greatergreater/">【喜加一】Discord加入频道免费领取《原始旅程》</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
-                  
-                  
-                  
-                  <article class="item post-2 post type-post status-publish format-standard has-post-thumbnail hentry">
-                    <a href="https://yf52.github.io/the-matter-in-your-head/post/gai-si-de-bai-du-wang-pan-you-xian-su-liao-zen-me-ban/" class="thumb hover-effect">
-                      <span class="fullimage cover" style="display:block;border-radius:50%;background-image: url('https://yf52.github.io/the-matter-in-your-head//post-images/gai-si-de-bai-du-wang-pan-you-xian-su-liao-zen-me-ban.jpg');"></span>
-                    </a>
-                    <div class="info gradient-effect">
-                      <time datetime="2020-04-21">2020-04-21</time>
-                      <h4 class="title usmall">
-                        <a href="https://yf52.github.io/the-matter-in-your-head/post/gai-si-de-bai-du-wang-pan-you-xian-su-liao-zen-me-ban/">该死的百度网盘又限速了怎么办？</a>
-                      </h4>
-                    </div>
-                    <div class="clear"></div>
-                  </article>
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  
-                  <div class="clear"></div>
-                </section>
-              </div>
+            // 如果文字删除完毕
+            if (mobilecharIndex < 0) {
+                mobileisDeleting = false;
+                // 额外增加200毫秒延迟
+                mobilestart = time + 200;
+            }
+        }
+    }
 
-              <div class="grid-33 tablet-grid-50 mobile-grid-100">
-                <section id="tag_cloud-2" class="widget widget_tag_cloud underline-effect">
-                  <h4 class="widget-title title white bordered">标签云</h4>
-                  <div class="tagcloud">
-                    
-                      <a href="https://yf52.github.io/the-matter-in-your-head/tag/tEV63luiq/" class="ctag ctag-0 ctag-tEV63luiq" aria-label="">知识点</a>
-                    
-                      <a href="https://yf52.github.io/the-matter-in-your-head/tag/RPF6TvCoK/" class="ctag ctag-1 ctag-RPF6TvCoK" aria-label="">steam</a>
-                    
-                      <a href="https://yf52.github.io/the-matter-in-your-head/tag/1-tncbIjT/" class="ctag ctag-2 ctag-1-tncbIjT" aria-label="">白嫖</a>
-                    
-                      <a href="https://yf52.github.io/the-matter-in-your-head/tag/5R00cceAs/" class="ctag ctag-3 ctag-5R00cceAs" aria-label="">免费周末</a>
-                    
-                  </div>
-                  <div class="clear"></div>
-                </section>
-              </div>
-
-              <div class="grid-33 tablet-grid-50 mobile-grid-100">
-                <section id="epcl_about-2" class="widget widget_epcl_about underline-effect">
-                  <h4 class="widget-title title white bordered">关于我</h4>
-                  <div class="avatar">
-                    <a href="" class="translate-effect thumb"><span class="fullimage cover" style="background-image: url(https://yf52.github.io/the-matter-in-your-head//images/avatar.png);"></span></a>
-                  </div>
-                  <div class="info">
-                    <h4 class="title small author-name gradient-effect no-margin"><a href="">神经病院主站</a></h4>
-                    <p class="founder">白嫖人士聚集地，资源获取喜加园</p>
-                    <div class="social">
-                      
-                        
-                      
-                        
-                      
-                        
-                      
-                        
-                      
-                        
-                      
-                    </div> 
-                  </div>
-                  <div class="clear"></div>
-                  </section>
-              </div>
-
-            </div>
-            <div class="clear"></div>
-        </div>
-
-        <div class="logo">
-          <a href="https://yf52.github.io/the-matter-in-your-head/"><img src="/media/images/gridea.png" alt=""></a>
-        </div>
-        <p class="published border-effect">
-          ©2019 共 7 篇文章
-          <br/>
-          Theme <a href="https://gridea.dev/" target="_blank">「breek」</a> Powered by <a href="https://gridea.dev/" target="_blank">「Gridea」</a>
-        </p>
-        
-        <a href="javascript:void(0)" id="back-to-top" class="epcl-button dark" style="display:none">
-          <i class="fa fa-arrow"></i>
-        </a>
-    </footer>
+    window.requestAnimationFrame(mobileLoadDes);
+</script>
+        <link rel="stylesheet" href="https://yf52.github.io/the-matter-in-your-head//media/css/font-awesome.css">
+<div id="post-container">
     
-    <div class="clear"></div>
-
+    <div class="postshow">
         
-
+        <div id="post" style="width:100%">
+            <img src="https://yf52.github.io/the-matter-in-your-head//post-images/qian-tan-steam-bei-hou-de-hei-se-jiao-yi.png" class="postimage"
+                onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/qian-tan-steam-bei-hou-de-hei-se-jiao-yi/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/qian-tan-steam-bei-hou-de-hei-se-jiao-yi/';return false">
+                    浅谈：steam背后的“黑色”交易
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-04-22</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+                <a href="https://yf52.github.io/the-matter-in-your-head/tag/tEV63luiq/" class="postlink">
+                    <i class="fa fa-tag"></i> 知识点
+                </a>
+                
+            </div>
+        </div>
+        
     </div>
-    <!-- end: #wrapper -->
-  </body>
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://yf52.github.io/the-matter-in-your-head//post-images/xi-jia-yi-discord-jia-ru-pin-dao-mian-fei-ling-qu-lesslessyuan-shi-lu-cheng-greatergreater.png" class="postimage"
+                onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/xi-jia-yi-discord-jia-ru-pin-dao-mian-fei-ling-qu-lesslessyuan-shi-lu-cheng-greatergreater/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/xi-jia-yi-discord-jia-ru-pin-dao-mian-fei-ling-qu-lesslessyuan-shi-lu-cheng-greatergreater/';return false">
+                    【喜加一】Discord加入频道免费领取《原始旅程》
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-04-21</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+                <a href="https://yf52.github.io/the-matter-in-your-head/tag/RPF6TvCoK/" class="postlink">
+                    <i class="fa fa-tag"></i> steam
+                </a>
+                
+                <a href="https://yf52.github.io/the-matter-in-your-head/tag/1-tncbIjT/" class="postlink">
+                    <i class="fa fa-tag"></i> 白嫖
+                </a>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://yf52.github.io/the-matter-in-your-head//post-images/gai-si-de-bai-du-wang-pan-you-xian-su-liao-zen-me-ban.jpg" class="postimage"
+                onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/gai-si-de-bai-du-wang-pan-you-xian-su-liao-zen-me-ban/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/gai-si-de-bai-du-wang-pan-you-xian-su-liao-zen-me-ban/';return false">
+                    该死的百度网盘又限速了怎么办？
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-04-21</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://yf52.github.io/the-matter-in-your-head//post-images/mian-fei-zhou-mo-jie-zhi-4954-yuan-steam-you-xi-jing-mian-fei-wan.png" class="postimage"
+                onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/mian-fei-zhou-mo-jie-zhi-4954-yuan-steam-you-xi-jing-mian-fei-wan/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/mian-fei-zhou-mo-jie-zhi-4954-yuan-steam-you-xi-jing-mian-fei-wan/';return false">
+                    【免费周末】价值4954元Steam游戏竟免费玩
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-04-20</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 9 min read</div>
+            <div class="posttag">
+                
+                <a href="https://yf52.github.io/the-matter-in-your-head/tag/5R00cceAs/" class="postlink">
+                    <i class="fa fa-tag"></i> 免费周末
+                </a>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://yf52.github.io/the-matter-in-your-head//post-images/4-yue-hui-zong-3-kuan-da-zuo-ni-dao-shou-mei.png" class="postimage"
+                onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/4-yue-hui-zong-3-kuan-da-zuo-ni-dao-shou-mei/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/4-yue-hui-zong-3-kuan-da-zuo-ni-dao-shou-mei/';return false">
+                    4月汇总：3款大作你到手没？
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-04-20</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+                <a href="https://yf52.github.io/the-matter-in-your-head/tag/1-tncbIjT/" class="postlink">
+                    <i class="fa fa-tag"></i> 白嫖
+                </a>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+    <div class="postshow">
+        
+        <div id="post" style="width:100%">
+            <img src="https://yf52.github.io/the-matter-in-your-head//post-images/bai-piao-xiao-xi-jie-zhi-78rmb-de-yi-kuan-xue-xi-yu-yan-de-you-xi.png" class="postimage"
+                onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/bai-piao-xiao-xi-jie-zhi-78rmb-de-yi-kuan-xue-xi-yu-yan-de-you-xi/';return false">
+            <div class="posttitlebox">
+                <div class="posttitle" onclick="window.location.href= 'https://yf52.github.io/the-matter-in-your-head/post/bai-piao-xiao-xi-jie-zhi-78rmb-de-yi-kuan-xue-xi-yu-yan-de-you-xi/';return false">
+                    白嫖消息【价值78RMB的一款学习语言的游戏】
+                </div>
+            </div>
+        </div>
+        <div class="postinfo">
+            <div class="postdate"><i class="fa fa-calendar"></i>2020-04-20</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+            <div class="posttag">
+                
+                <a href="https://yf52.github.io/the-matter-in-your-head/tag/RPF6TvCoK/" class="postlink">
+                    <i class="fa fa-tag"></i> steam
+                </a>
+                
+                <a href="https://yf52.github.io/the-matter-in-your-head/tag/1-tncbIjT/" class="postlink">
+                    <i class="fa fa-tag"></i> 白嫖
+                </a>
+                
+            </div>
+        </div>
+        
+    </div>
+    
+</div>
+        <div class="pagination-container">
+            
+            
+        </div>
+        <div style="margin-bottom:60px">&nbsp;</div>
+    </div>
+
+<div id="landlord">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
+</div>
+</body>
+
 </html>
+<script src="https://yf52.github.io/the-matter-in-your-head//media/js/index.js"></script>
