@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://yf52.github.io/the-matter-in-your-head/</id>
     <title>神经病院主站</title>
-    <updated>2020-04-26T04:34:38.850Z</updated>
+    <updated>2020-05-17T14:52:55.526Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://yf52.github.io/the-matter-in-your-head/"/>
     <link rel="self" href="https://yf52.github.io/the-matter-in-your-head/atom.xml"/>
@@ -10,6 +10,13 @@
     <logo>https://yf52.github.io/the-matter-in-your-head/images/avatar.png</logo>
     <icon>https://yf52.github.io/the-matter-in-your-head/favicon.ico</icon>
     <rights>All rights reserved 2020, 神经病院主站</rights>
+    <entry>
+        <title type="html"><![CDATA[危！！！]]></title>
+        <id>https://yf52.github.io/the-matter-in-your-head/post/wei/</id>
+        <link href="https://yf52.github.io/the-matter-in-your-head/post/wei/">
+        </link>
+        <updated>2020-05-11T17:47:49.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[福利发放]]></title>
         <id>https://yf52.github.io/the-matter-in-your-head/post/fu-li-fa-fang/</id>
